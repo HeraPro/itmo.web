@@ -1,2 +1,2 @@
 # ITMO_WEB
-5th sem web (front)
+M33081 Ханджян Ованес
