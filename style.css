@@ -98,10 +98,10 @@ input[type=text]:focus {
 
 .menu {
     background-color: rgb(214, 220, 255);
-    z-index: -1;
+
 }
 
-.menu-content {
+#menu-content {
     display: flex;
     flex-direction: column;
     padding-top: 45px;
@@ -168,6 +168,16 @@ a {
 .product-image {
     background-image: url("image/man.png");
     height: 335px;
+    width: 230px;
+    border-radius: 20px 20px 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: none;
+}
+
+.product-image-1 {
+    background-image: url("image/shoes.jpg");
+    height: 345px;
     width: 230px;
     border-radius: 20px 20px 0 0;
     background-size: contain;

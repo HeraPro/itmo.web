@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+:root{
+    --black: rgba(0,0,0,1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-s: 22px;
+    --font-size-m: 29px;
+    --font-size-1: 60px;
+    --font-size-x1: 62px;
+
+    --font-family-inter: "Inter"
+}
+
+.inter-normal-white-29px{
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slide-16-9-1{
+    background-color: #bb8989;
+    border: 1px none;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    width: 1920px;
+}
+
+.hidden,
+.hidden *{
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.lorem-ipsum-dolor-si{
+    left: 39px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 196px;
+    width: 408px;
+}
+
+.overlap-group{
+    align-items: flex-start;
+    background-color: #b67e7e;
+    display: flex;
+    height: 81px;
+    justify-content: flex-end;
+    left: 1546px;
+    min-width: 374px;
+    padding: 2px 0;
+    position: absolute;
+    top: 1009px;
+}
+
+.nobody-knows-who-is{
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    letter-spacing: 0;
+    min-height: 68px;
+    width: 367px;
+}
+
+.overlap-group1{
+     height: 81px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 1920px;
+}
+
+.place{
+    color: #787878;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    left: 1490px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 308px;
+}
+
+.rectangle-1{
+    background-color: #ffc9c9;
+    border: 1px none;
+    height: 75px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 1920px;
+}
+
+.lorem-ipsum-dolor-si-1{
+    left: 39px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 216px;
+    width: 480px;
+}
+
+.lab1-1{
+    height: 616px;
+    left: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 364px;
+    width: 847px;
+}
+
+.lorem-ipsum-dolor-si-2{
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-x1);
+    font-weight: 400;
+    left: 500px;
+    letter-spacing: 0;
+    position: fixed;
+    top: 205px;
+    width: 960px;
+}
