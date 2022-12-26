@@ -1,0 +1,7 @@
+{
+  "name": "itmo.web-main",
+  "version": "1.0.0",
+  "devDependencies": {
+    "reveal.js": "^4.4.0"
+  }
+}
